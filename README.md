@@ -1,6 +1,6 @@
-# 🚀 Розгортання вебсервера та ZStore (Zippy)
+# 🚀 Розгортання вебсервера та ZStore (Zippy CRM)
 
-> Покроковий посібник для новачків — від чистого Ubuntu Server 24.04 LTS до готового інтернет-магазину/складу **ZStore**  https://zippy.com.ua/.
+> Покроковий посібник для новачків — від чистого Ubuntu Server 24.04 LTS до готового інтернет-магазину/складу **Zippy CRM**  https://zippy.com.ua/.
 
 ---
 
@@ -70,7 +70,7 @@ sudo mysql_secure_installation
 
 ## 4. Встановлення PHP
 
-ZStore потребує PHP 8.3 та кілька розширень для роботи з графікою, архівами і текстом:
+Zippy CRM потребує PHP 8.3 та кілька розширень для роботи з графікою, архівами і текстом:
 
 ```bash
 sudo apt install php libapache2-mod-php php-mysql php-cli php-curl \
@@ -110,7 +110,7 @@ EXIT;
 
 ---
 
-## 6. Розгортання файлів ZStore
+## 6. Розгортання файлів Zippy CRM
 
 Очистіть стандартну вебпапку:
 
