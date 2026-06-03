@@ -124,8 +124,15 @@ sudo rm -rf *
 ```bash
 cd ~
 git clone https://github.com/leon-mbs/zstore.git
+sudo mkdir -p /var/www/html/
 sudo cp -r ~/zstore/www/* /var/www/html/
 ```
+Перевіряємо, чи з'явилися файли всередині папки:
+
+```bash
+ls -la /var/www/html/
+```
+У відповідь термінал має вивести список файлів  ZStore (там будуть папки config, index.php тощо).
 
 ---
 
