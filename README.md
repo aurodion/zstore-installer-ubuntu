@@ -171,11 +171,14 @@ sudo find /var/www/html/ -type d -exec chmod 755 {} \;
 sudo find /var/www/html/ -type f -exec chmod 644 {} \;
 ```
 
-Створіть конфіг з шаблону:
+Перейдіть у папку з конфігураційними файлами CRM:
 
 ```bash
 cd /var/www/html/config
-sudo cp config.sample.php config.php
+```
+Відкрийте файл config.php для редагування :
+
+```bash
 sudo nano config.php
 ```
 
