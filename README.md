@@ -174,7 +174,7 @@ sudo find /var/www/html/ -type f -exec chmod 644 {} \;
 Обов'язково надайте підвищені права на запис для папок логів та завантажень, як того вимагає розробник:
 ```bash
 sudo chmod -R 775 /var/www/html/logs
-   sudo chmod -R 775 /var/www/html/upload
+sudo chmod -R 775 /var/www/html/upload
 ```
 
 Перейдіть у папку з конфігураційними файлами CRM:
